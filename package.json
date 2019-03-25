@@ -1,0 +1,45 @@
+{
+  "name": "survey-react-builder",
+  "version": "0.1.0",
+  "description": "Survey builder application useing Survey.js React and Redux",
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "react-scripts": "^0.9.5"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "normalizr": "^3.2.2",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dnd": "^2.1.4",
+    "react-dnd-html5-backend": "^2.1.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "reselect": "^2.5.4",
+    "shortid": "^2.2.6",
+    "survey-react": "^0.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "author": "Sk. Imtiaz Ahmed (excallibrbd@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/excalliburbd/survey-react-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/excalliburbd/survey-react-builder/issues"
+  }
+}
